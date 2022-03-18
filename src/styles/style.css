@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Hey August';
-    src: url(./hey_august.otf);
+    src: url('../fonts/hey_august.otf');
 }
 .header {background-color: #e1e1e1}
 .header .brand {
@@ -30,7 +30,7 @@ ol.breadcrumb a {color: #000}
 }
 .parallax {
     height: 500px;
-    background-image: url(img/foto-parallax.jpg);
+    background-image: url('../img/foto-parallax.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
